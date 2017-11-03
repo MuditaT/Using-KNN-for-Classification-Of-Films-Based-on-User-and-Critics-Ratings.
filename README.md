@@ -18,8 +18,8 @@ k-NN has some strong consistency results. As the amount of data approaches infin
 
 ## Algorithm
 * Let K is any integer (K>=2). Value of K is to set any integer. Generally,
-  a)If number of classes =j=2 then set K=some odd integer
-  b)K must not be multiple of number of classes i.e  K is not equal to j.
+  * If number of classes =j=2 then set K=some odd integer
+  * K must not be multiple of number of classes i.e  K is not equal to j.
 * Find n Euclidean Distances between X0 and X1, X2…Xn.
 * Arrange all distances calculated in step 2 in non-decreasing order.
 * Select K number of shortest distances as K- distances.
